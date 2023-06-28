@@ -60,3 +60,5 @@ urllib3==2.0.3
 wasabi==1.1.2
 Werkzeug==2.3.6
 yarl==1.9.2
+openai
+progress_bar

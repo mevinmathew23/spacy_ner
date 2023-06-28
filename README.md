@@ -8,6 +8,12 @@ Repository for training a new Spacy Named Entity Recognition (NER) on Crime rela
    $ . spacy/bin/activate
    ```
 
+   <!-- Windows -->
+   ```bash
+   $ python3 -m venv spacy
+   $ . spacy/Scripts/activate
+   ```
+   
 2. Install the requirements:
 
    ```bash
