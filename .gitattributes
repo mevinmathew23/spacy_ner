@@ -1,2 +1,6 @@
-model-best/transformer/model filter=lfs diff=lfs merge=lfs -text
-model-last/transformer/model filter=lfs diff=lfs merge=lfs -text
+models/models_corona/model-best/transformer/model filter=lfs diff=lfs merge=lfs -text
+models/models_corona/model-last/transformer/model filter=lfs diff=lfs merge=lfs -text
+models/models_crime/model-best/transformer/model filter=lfs diff=lfs merge=lfs -text
+models/models_crime/model-last/transformer/model filter=lfs diff=lfs merge=lfs -text
+models/models_crime_v4_1/model-best/transformer/model filter=lfs diff=lfs merge=lfs -text
+models/models_crime_v4_2/model-best/transformer/model filter=lfs diff=lfs merge=lfs -text

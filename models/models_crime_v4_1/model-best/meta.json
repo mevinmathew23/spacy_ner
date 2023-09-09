@@ -2,13 +2,13 @@
   "lang":"en",
   "name":"pipeline",
   "version":"0.0.0",
-  "spacy_version":">=3.5.3,<3.6.0",
+  "spacy_version":">=3.6.1,<3.7.0",
   "description":"",
   "author":"",
   "email":"",
   "url":"",
   "license":"",
-  "spacy_git_version":"Unknown",
+  "spacy_git_version":"458bc5f45",
   "vectors":{
     "width":0,
     "vectors":0,
@@ -44,9 +44,9 @@
 
   ],
   "performance":{
-    "ents_f":0.9700598802,
-    "ents_p":0.9950859951,
-    "ents_r":0.9462616822,
+    "ents_f":1.0,
+    "ents_p":1.0,
+    "ents_r":1.0,
     "ents_per_type":{
       "Violent_Crimes":{
         "p":1.0,
@@ -55,8 +55,8 @@
       },
       "Property_Crimes":{
         "p":1.0,
-        "r":0.8305084746,
-        "f":0.9074074074
+        "r":1.0,
+        "f":1.0
       },
       "Financial_Crimes":{
         "p":1.0,
@@ -64,24 +64,24 @@
         "f":1.0
       },
       "Cybercrimes":{
-        "p":0.9672131148,
-        "r":0.8939393939,
-        "f":0.9291338583
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
       },
       "Drug_Crimes":{
         "p":1.0,
-        "r":0.9259259259,
-        "f":0.9615384615
+        "r":1.0,
+        "f":1.0
       },
       "White-Collar_Crimes":{
         "p":1.0,
-        "r":0.9705882353,
-        "f":0.9850746269
+        "r":1.0,
+        "f":1.0
       },
       "Sexual_Crimes":{
         "p":1.0,
-        "r":0.9333333333,
-        "f":0.9655172414
+        "r":1.0,
+        "f":1.0
       },
       "Public_Order_Crimes":{
         "p":1.0,
@@ -94,7 +94,7 @@
         "f":1.0
       }
     },
-    "transformer_loss":290.3171034279,
-    "ner_loss":286.4243621515
+    "transformer_loss":86.5208448948,
+    "ner_loss":103.1381163112
   }
 }
